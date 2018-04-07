@@ -1,3 +1,10 @@
+@mixin border($raio){
+	-webkit-border-radius: $raio;
+	-o-border-radius: $raio;
+	-ms-border-radius: $raio;
+	border-radius: $raio;
+}
+
 @mixin element($element){
 	&__#{$element}{
 		@content;

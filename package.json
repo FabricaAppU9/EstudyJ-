@@ -1,16 +1,20 @@
 {
-  "name": "estudeja",
+  "name": "application",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.9.8",
+    "browsersync": "0.0.1-security",
+    "gulp": "^3.9.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-watch": "^5.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0",
-    "gulp-watch": "^5.0.0"
-  }
+  "license": "ISC"
 }

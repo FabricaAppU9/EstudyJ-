@@ -1,0 +1,17 @@
+.btn{
+	@include border(6px);
+}
+
+.btn--primary{
+	background-color: $azul;
+    color: $branco;
+}
+.btn--default {
+    background-color: $azul;
+    color: $branco;
+}
+
+.btn--small{padding: 2px 12px;}
+.btn--medium{padding: 6px 16px;}
+.btn--large{padding: 10px 20px;}
+
