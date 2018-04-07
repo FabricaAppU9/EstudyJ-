@@ -6,14 +6,14 @@ var gulp = require('gulp')
 
 // task para o sass
 gulp.task('sass', function() {
-    return gulp.src('source/sass/**/*.scss')
+    return gulp.src('./sass/**/*.scss')
         .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
-        .pipe(gulp.dest('source/css'));
+        .pipe(gulp.dest('./css'));
 });
 
 // task para watch
 gulp.task('watch', function(){
-	gulp.watch('source/sass/**/*.scss', ['sass']);
+	gulp.watch('./sass/**/*.scss', ['sass']);
 });
 
 // task default gulp
@@ -35,7 +35,7 @@ gulp.task('clean', function(){
 gulp.task('server', function(){
 	browserSync.init({
 		server: {
-			baseDir: 'source'
+			baseDir: ''
 		}
 	});
 

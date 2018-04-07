@@ -29,7 +29,8 @@
 //VENHA FAZER PARTE
 .join-us{
     height: 300px;
-    background-color: $cinza;
+    background-image: url('../../images/time.png');
+    background-position: center;
     text-align: center;
     display: flex;
     align-items: center;
@@ -37,6 +38,7 @@
     flex-direction: column;
     h2{
         font-weight: bold;
+        color:white;
     }
     h2,p{
         padding: 2em;
