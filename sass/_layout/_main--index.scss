@@ -14,22 +14,36 @@
         display: flex;
         justify-content: space-between;
         padding: 2em;
-        @include make-md-column(4);
-        @include make-md-column-offset(4);
+        @include make-md-column(6);
+        @include make-md-column-offset(3);
 
         @include element(circle) {
             width: 150px;
-            width: 150px;
-            height: 150px;
+            width: 170px;
+            height: 170px;
             background-color: $cinza;
             border-radius: 100%;
+        }
+        
+        .create{
+            background-image: url('../images/Crie-Icon.png');
+            background-position: center;
+        }
+        .share{
+            background-image: url('../images/Compartilhe-Icon.png');
+            background-position: center;
+        }
+        .available{
+            background-image: url('../images/Avalie-Icon.png');
+            background-position: center;
         }
     }
 }
 //VENHA FAZER PARTE
 .join-us{
     height: 300px;
-    background-image: url('../../images/time.png');
+    background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0)), url('../images/time.png');
+    background-attachment: fixed;
     background-position: center;
     text-align: center;
     display: flex;
@@ -57,7 +71,7 @@
         margin:4em;
      
         @include element(circle--use){
-            background-color:$cinza;
+           background-color:$cinza;
             width: 150px;
             height: 150px;
             border-radius: 100%;
@@ -65,7 +79,7 @@
     }
 }
 .about-app{
-    background-color: $cinza;
+//    background-color: $cinza;
    padding-bottom: 2em;
    margin-bottom: 2em;
     // height: auto;

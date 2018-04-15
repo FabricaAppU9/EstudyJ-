@@ -15,7 +15,7 @@
             li {
                 float: right;
                 margin-top: 2em;
-
+                margin-bottom: 2em;
                 a {
                     color: $branco;
                 }
@@ -29,5 +29,14 @@
             color: $branco;
             font-size: 12px;
         }
+    }
+    
+    .banner{width: 100%; height: 600px;}
+    .img1{
+        //background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0)), url('../images/4.png');
+        background-position: bottom;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 }

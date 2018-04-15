@@ -11,30 +11,57 @@
 	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 </head>
 <body>
-	<header class="header-main" role="banner">
-		<div class="container">
-			<div class="header-main__logo">Logo</div>
+	<header class="header-main carousel slide" id="carousel-example-generic" data-ride="carousel" role="banner">
+        
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <div class="banner img1">
+                    <div class="container">
+                        <div class="header-main__logo">Logo</div>
 
-			<nav class="header-main__navigation">
-				<ul>
-					<li><a href="#" class="btn btn--medium btn--primary" role="button">Entrar</a></li>
-					<li><a href="#" class="btn btn--medium active" role="button">Cadastre-se</a></li>
-				</ul>
-			</nav>
-		</div>	
+                        <nav class="header-main__navigation">
+                            <ul>
+                                <li><a href="#" class="btn btn--medium btn--primary" role="button">Entrar</a></li>
+                                <li><a href="#" class="btn btn--medium active" role="button">Cadastre-se</a></li>
+                            </ul>
+                        </nav>
+
+                         <!-- Indicators -->
+                          <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                          </ol>
+
+                    </div>
+                    <!-- Controls -->
+                      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                </div>
+                <div class="carousel-caption">
+                </div>
+            </div>
+        </div>
 	</header>
 	<main>
+        
 		<section class="what-is">
             <div clas="container">
                 <h1>O que é Study Já</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora cupiditate, quam! Eligendi obcaecati aspernatur, vel accusamus. Quo ea, porro repellendus, quasi ipsum rerum nihil mollitia, atque repudiandae commodi eum. Dicta.</p>
 
                 <div class="what-is__circles">
-                    <div class="what-is__circles__circle"></div>
-                    <div class="what-is__circles__circle"></div>
-                    <div class="what-is__circles__circle"></div>
+                    <div class="what-is__circles__circle create"></div>
+                    <div class="what-is__circles__circle share"></div>
+                    <div class="what-is__circles__circle available"></div>
                 </div>
-            </div>
+            </div>    
 		</section>
 
 		<div class="join-us">
